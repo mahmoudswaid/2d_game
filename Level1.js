@@ -215,7 +215,7 @@ Game.Level1.prototype = {
     {
         player.setVelocityY(-330);
     }
-  }
+  },
   
   collectStar: function (player, coin){
     coin.disableBody(true, true);
@@ -303,7 +303,7 @@ Game.Level1.prototype = {
         level = 110;
     }
     console.log("Level score = "+ level);
-  }
+  },
 
   hitBomb: function (player, bomb)
   {
